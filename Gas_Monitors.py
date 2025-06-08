@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 #Importing the Data
-file_path = "C:\\Users\\garre\\OneDrive\\Desktop\\Coding\\Gas Monitors\\Data Raw.xlsx"
+file_path = "FILE PATH"
 sheet_name = ['Monitor 1', 'Monitor 2', 'Monitor 3']
 df_dict = pd.read_excel(file_path, sheet_name=sheet_name)
 

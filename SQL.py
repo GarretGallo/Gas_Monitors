@@ -6,10 +6,10 @@ from Gas_Monitors import monitor_locations, daily_df, weekly_df, monthly_df, df_
 Base = declarative_base()
 
 #Database Credentials
-USERNAME = 'root'
-PASSWORD = 'GratCode1122'
-HOST = '127.0.0.3:3306'
-DATABASE = 'gas_monitor_data'
+USERNAME = '***'
+PASSWORD = '***'
+HOST = '***'
+DATABASE = '***'
 
 engine = create_engine(f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE}")
 
